@@ -96,7 +96,7 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 		],
 	});
 
-	// 自定义导航栏链接
+	// 主页上的自定义导航栏链接
 	links.push({
 		name: "链接",
 		url: "#",
@@ -105,18 +105,18 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 		children: [
 			{
 				name: "GitHub",
-				url: "https://github.com/CuteLeaf/Firefly",
+				url: "https://github.com/VRad-Program",
 				external: true,
 				icon: "fa7-brands:github",
 			},
 			{
 				name: "Gitee",
-				url: "https://gitee.com/CuteLeaf/Firefly",
+				url: "https://gitee.com/VRad_Micre",
 				external: true,
 				icon: "fa7-brands:gitee",
 			},
 			{
-				name: "Firefly文档",
+				name: "来源： Firefly文档",
 				url: "https://docs-firefly.cuteleaf.cn",
 				external: true,
 				icon: "material-symbols:docs",

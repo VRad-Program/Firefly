@@ -3,7 +3,7 @@ import type { Live2DWidgetConfig, SpineModelConfig } from "../types/pioConfig";
 // Spine 看板娘配置
 export const spineModelConfig: SpineModelConfig = {
 	// Spine 看板娘开关
-	enable: false,
+	enable: true,
 
 	// Spine模型配置
 	model: {
@@ -85,7 +85,7 @@ export const spineModelConfig: SpineModelConfig = {
 // Live2D 看板娘配置 (使用 l2d-widget 库，文档：https://l2d-widget.hacxy.cn)
 export const live2dWidgetConfig: Live2DWidgetConfig = {
 	// Live2D 看板娘开关
-	enable: false,
+	enable: true,
 	// 模型配置，支持单个模型或数组（多模型切换）
 	model: [
 		{
@@ -160,6 +160,7 @@ export const live2dWidgetConfig: Live2DWidgetConfig = {
 		welcomeMessage: ["你好呀！", "欢迎来到我的世界！"],
 		// 循环提示内容
 		messages: [
+			"💼怎么样？",
 			"有什么需要帮助的吗？",
 			"今天天气真不错呢！",
 			"要不要一起玩游戏？",

@@ -32,7 +32,7 @@ export const galleryConfig: GalleryConfig = {
 			date: "2026-02-01",
 			tags: ["加密相册", "示例"],
 			password: "123456",
-			passwordHint: "示例密码123456",
+			passwordHint: "示例密码",
 		},
 	],
 

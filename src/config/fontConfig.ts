@@ -81,6 +81,19 @@ export const fontsList: FontDefinition[] = [
 		},
 		fallbacks: ["sans-serif"],
 	},
+	{
+  		name: "zen-maru-gothic",
+  		cssVariable: "--font-my-custom",
+  		provider: "local",
+  		options: {
+    		variants: [
+      		{
+        		src: ["./public/assets/fonts/zen-maru-gothic_5.3.1_latin-300-normal.woff2"],
+      		},
+    				],
+  },
+  fallbacks: ["sans-serif"],
+	}
 ];
 
 // ─── 字体选择与区域覆盖 ─────────────────────────────────────
@@ -109,5 +122,8 @@ export const fontConfig: FontSelectionConfig = {
 			// 额外包含的字符
 			extraChars: "",
 		},
+		"--font-my-custom": {
+    		extraChars: "", // 补充动态内容中可能用到的字符
+  		},
 	},
 };
