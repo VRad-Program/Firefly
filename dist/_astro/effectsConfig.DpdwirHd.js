@@ -1,0 +1,1 @@
+var a={enable:!0,sakuraNum:100,limitTimes:-1,size:{min:.8,max:1.2},opacity:{min:.3,max:1},speed:{horizontal:{min:-1.9,max:-1.1},vertical:{min:1.2,max:2.9},rotation:.05,fadeSpeed:.05},zIndex:100};export{a as t};
