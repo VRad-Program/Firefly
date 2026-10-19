@@ -7,7 +7,7 @@ export const sakuraConfig: SakuraConfig = {
 	enable: true,
 
 	// 樱花数量
-	sakuraNum: 100,
+	sakuraNum: 34,
 
 	// 樱花越界限制次数，-1为无限循环
 	limitTimes: -1,
